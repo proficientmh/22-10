@@ -1,0 +1,245 @@
+@font-face {
+    font-family: mulish_black;
+    src: url(font/Mulish_Black.woff2);
+}
+
+@font-face {
+    font-family: mulish_bold;
+    src: url(font/Mulish_Bold.woff2);
+}
+
+@font-face {
+    font-family: mulish_regular;
+    src: url(font/mulish_regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*body1 start*/
+
+
+/*home*/
+
+.home .bar {
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .bar .logos {
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .bar .logos img:first-child {
+    width: 60px;
+    height: 45px;
+}
+
+.home .bar .logos img:last-child {
+    width: 100px;
+    height: 45px;
+}
+
+.home .bar .texts {
+    width: 220px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .bar .texts span {
+    margin-top: 1.9vh;
+}
+
+.home .bar .texts span:first-child a {
+    text-decoration: none;
+    color: #DE0524;
+}
+
+.home .bar .texts span a {
+    text-decoration: none;
+    color: #AC041C;
+}
+
+
+/*big background (bigB)*/
+
+.bigB {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bigB .texts {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    !important;
+    text-align: center;
+    height: 350px;
+}
+
+.bigB .texts .text span {
+    color: white;
+    font-size: 72px;
+    line-height: 90px;
+    font-weight: 400px;
+}
+
+.bigB .texts .link {
+    margin-top: 50px;
+}
+
+.bigB .texts a {
+    text-decoration: none;
+    color: #AC041C;
+}
+
+
+/*slider*/
+
+.slider {
+    height: 100vh;
+}
+
+.about {
+    height: 600px;
+    background-image: url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about .text {
+    height: 280px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    !important;
+    text-align: center;
+}
+
+.about .text .aboutUs {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+.about .text .the {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.about .text .we {
+    color: white;
+    font-size: 15px;
+    padding: 1.5px;
+}
+
+
+/*contract*/
+
+.contact {
+    max-width: 920px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact .left .txt p:first-child {
+    color: #DE0524;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400px;
+}
+
+.contact .left .txt p {
+    color: #AC041C;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 400px;
+}
+
+.contact .left .logo {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .left .logo img {
+    width: 38px;
+}
+
+.contact .right {
+    color: #AC041C;
+}
+
+.contact .right input {
+    border-color: #AC041C;
+    border-radius: 0;
+}
+
+.contact .right textarea {
+    border-color: #AC041C;
+    border-radius: 0;
+}
+
+::-ms-input-placeholder {
+    color: #AC041C;
+}
+
+::-ms-input-placeholder {
+    color: #AC041C;
+}
+
+::-moz-placeholder {
+    color: #AC041C;
+    opacity: 1;
+}
+
+:-moz-placeholder {
+    color: #AC041C;
+    opacity: 1;
+}
+
+.contact .right button {
+    width: 100%;
+    background-color: #AC041C;
+    color: white;
+}
+
+
+/*map*/
+
+.map .frame {
+    max-width: 920px;
+    display: table;
+    margin: auto;
+}
